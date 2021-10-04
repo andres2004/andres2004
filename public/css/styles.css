@@ -169,12 +169,22 @@ article div.main-article {
 }
 
 /* footer */
-footer {
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+div.footer-3  {
+    background-color: white;
+   }
+   .pie {
+       text-align: center;
+   }
+   
+   .pie div {
+       color:#1259c3;
+       font-size: 2em;
+       line-height: 10px;
+   }
+   .pie div i:hover {
+       color: #EAC926;
+   }
+   
 
 /* media queries */
 @media (min-width: 361px){
